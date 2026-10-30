@@ -109,7 +109,7 @@ Note:
     permissions to the PostgreSQL server process.
 */
 COPY bronze.crm_cust_info
-FROM '/Users/onstliba/Documents/sql-data-warehouse-project/01_datasets/source_crm/cust_info.csv'
+FROM 'your_path/source_crm/cust_info.csv'
 WITH (
     FORMAT CSV,
     HEADER TRUE,
