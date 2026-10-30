@@ -35,7 +35,7 @@ Warning:
 
 ===============================================================================
 */
-
+```
 -- Create Schemas
 CREATE SCHEMA IF NOT EXISTS bronze;
 CREATE SCHEMA IF NOT EXISTS silver;
@@ -115,4 +115,4 @@ WITH (
     HEADER TRUE,
     DELIMITER ','
 );
-```
+
